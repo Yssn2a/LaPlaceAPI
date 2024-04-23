@@ -7,7 +7,7 @@ pip install -r requirement.txt
 ```
 Then Run Main.py
 
-# Create Order
+# Create Order 🟢
 API to send Request to Server and Get Pdf File as Return , Request Accept json Data in this Format :
 ```
 {
@@ -47,7 +47,7 @@ The SS response is False :
 ```
 
 
-# Delete Order
+# Delete Order 🔴
 Gives The Client the Chance To Delete Order Using Two Inputs (Orderid,Name)
 ```
 {
