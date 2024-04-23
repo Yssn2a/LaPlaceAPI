@@ -20,7 +20,9 @@ API to send Request to Server and Get Pdf File as Return , Request Accept json D
 }
 ```
 Url = http://127.0.0.1:5000/Create,
+
 The Request Sent To Server ,It genereate a Random Orderid , the content Get Sent to Telegram Group And Get back the *Message_id* value (So we can Edit message when Order is cancelled)
+
 and then get saved To Archive in this format Example: 
 ```
     {
@@ -35,3 +37,26 @@ and then get saved To Archive in this format Example:
         "Message_id": 25
     },
 ```
+The SS response if true :
+```
+{"success":"LINK TO PDF FILE CONTAINGING ORDER INFOS"}
+```
+The SS response is False :
+```
+{"False"}
+```
+
+
+# Delete Order
+Gives The Client the Chance To Delete Order Using Two Inputs (Orderid,Name)
+```
+{
+"OrderId": "15751",
+"Name": "Yassine"
+}
+```
+Url = http://127.0.0.1:5000/Delete,
+The Request Sent To Server, Opens Archive Checks if OrderId and Name Matches Same Entry and If they are available if this all true it Gets Message_id Value and Edit Messsage on Telegram that it was cancelled
+
+
+
