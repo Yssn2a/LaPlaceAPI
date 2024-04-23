@@ -1,10 +1,19 @@
-# My Awesome Project
+# LaPlaceAPI
+Fully API Create and Delete Order
 
-This is a description of my awesome project.
-
-## Installation
-
-To install my project, run:
-
+# How To Run It
+1-
 ```bash
-pip install my-awesome-project
+pip install -r requirement.txt
+```
+# Create Order
+API to send Request to Server and Get Pdf File as Return , Request Accept json Data in this Format :
+{
+    "Name": "John",
+    "LastName": "Doe",
+    "PhoneNumber": "XXXXXXXXXXX",
+    "Reservation": "X",
+    "Order": "X",
+    "CustomMessage": "X"
+}
+
