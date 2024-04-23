@@ -1,0 +1,4 @@
+fileuploader==1.0.0
+pdf_creator==1.0.0
+reportlab==3.6.1
+requests==2.26.0
