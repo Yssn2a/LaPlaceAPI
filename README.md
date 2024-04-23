@@ -66,7 +66,7 @@ OrderId and Name Found And order cancelled:
 "result": 1
 }
 ```
-OrderId and Name Found And But order Already cancelled:
+OrderId and Name Found But order Already cancelled:
 ```
 {
 "result": 0
