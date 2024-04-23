@@ -2,12 +2,15 @@
 Fully API Create and Delete Order
 
 # How To Run It
-1-
 ```bash
 pip install -r requirement.txt
 ```
+Then Run Main.py
+
 # Create Order
 API to send Request to Server and Get Pdf File as Return , Request Accept json Data in this Format :
+
+```
 {
     "Name": "John",
     "LastName": "Doe",
@@ -16,4 +19,5 @@ API to send Request to Server and Get Pdf File as Return , Request Accept json D
     "Order": "X",
     "CustomMessage": "X"
 }
+```
 
